@@ -1,3 +1,6 @@
+import duckdb
+
+
 class BronzeAudit:
     """Gerenciar estados da tabela"""
 

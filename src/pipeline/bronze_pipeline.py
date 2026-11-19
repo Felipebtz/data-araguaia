@@ -4,7 +4,7 @@ import glob
 import duckdb
 from src.domain.bronze_config import DomainConfig
 from src.extract.csv_to_parquet import CsvToParquetExtractor
-from src.repository.bronze_audit import BronzeAudit
+from src.data.bronze_audit_repository import BronzeAudit
 
 
 class BronzePipeline:
